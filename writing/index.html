@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Writing — SAMADEI</title>
+    <meta name="description" content="Reflections on consciousness, embodiment, and the integration of inner and outer worlds.">
+    <link rel="icon" href="/favicon.png">
+    <link rel="canonical" href="https://www.samadei.com/writing">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Writing — SAMADEI">
+    <meta property="og:description" content="Reflections on consciousness, embodiment, and the integration of inner and outer worlds.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0a0a0a;
+            --surface: #111;
+            --border: rgba(255,255,255,0.08);
+            --text: #e8e8e8;
+            --muted: #888;
+            --accent: rgba(255,255,255,0.06);
+        }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            min-height: 100vh;
+            padding: 0 24px;
+        }
+        .container { max-width: 680px; margin: 0 auto; padding: 80px 0 120px; }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 72px;
+        }
+        nav a { color: var(--muted); text-decoration: none; font-size: 0.85rem; letter-spacing: 0.04em; transition: color 0.2s; }
+        nav a:hover { color: var(--text); }
+        nav .logo { color: var(--text); font-weight: 600; letter-spacing: 0.08em; font-size: 0.9rem; }
+        h1 { font-size: 1.1rem; font-weight: 500; letter-spacing: 0.06em; color: var(--muted); text-transform: uppercase; margin-bottom: 48px; }
+        .articles { display: flex; flex-direction: column; gap: 2px; }
+        .article-card {
+            display: block;
+            padding: 28px 0;
+            border-bottom: 1px solid var(--border);
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.2s;
+        }
+        .article-card:first-child { border-top: 1px solid var(--border); }
+        .article-card:hover { opacity: 0.7; }
+        .article-meta { font-size: 0.78rem; color: var(--muted); letter-spacing: 0.04em; margin-bottom: 10px; }
+        .article-title { font-size: 1.15rem; font-weight: 500; line-height: 1.4; margin-bottom: 10px; }
+        .article-excerpt { font-size: 0.88rem; color: var(--muted); line-height: 1.65; }
+        .article-read { font-size: 0.78rem; color: var(--muted); margin-top: 14px; display: flex; align-items: center; gap: 6px; }
+        .article-read::after { content: '→'; }
+        footer { padding: 48px 0 0; color: var(--muted); font-size: 0.8rem; }
+        footer a { color: var(--muted); text-decoration: none; }
+        footer a:hover { color: var(--text); }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <a href="/" class="logo">SAMADEI</a>
+        <a href="/">← Back</a>
+    </nav>
+
+    <h1>Writing</h1>
+
+    <div class="articles">
+        <a href="/writing/ai-reflective-practice" class="article-card">
+            <div class="article-meta">Nov 22, 2025 &nbsp;·&nbsp; 4 min read</div>
+            <div class="article-title">Self Experiment: Using AI as a Daily Reflective Practice</div>
+            <div class="article-excerpt">Two months of consistent self-inquiry, supported by AI. What started as casual conversations evolved into something I didn't expect — a systematic approach to self-inquiry that's been surprisingly effective.</div>
+            <div class="article-read">Read</div>
+        </a>
+
+        <a href="/writing/grounded-mystic" class="article-card">
+            <div class="article-meta">Nov 4, 2025 &nbsp;·&nbsp; 6 min read</div>
+            <div class="article-title">The Grounded Mystic: When Transcendence Becomes Breath</div>
+            <div class="article-excerpt">I was dancing alone in my apartment in Vietnam. Somewhere in that movement, I felt something I'd been searching for without knowing how to name it: complete presence. Not because I was meditating for hours. Just… being.</div>
+            <div class="article-read">Read</div>
+        </a>
+    </div>
+
+    <footer>
+        <p><a href="/">samadei.com</a></p>
+    </footer>
+</div>
+</body>
+</html>
